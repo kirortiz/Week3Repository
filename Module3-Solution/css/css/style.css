@@ -53,11 +53,19 @@ body {
 }
 /* END HEADER */
 
+#our-menu-title{
+	margin-bottom: 40px;
+}
+
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
 
 
+.menu-description{
+	margin-left: 10px;
+   		margin-right: 10px;
+  	}
 
 	.menu{
     	width: 100%;
@@ -66,10 +74,10 @@ body {
     	margin-bottom: auto;
   }
     .menu-item{
-  		background-color: black;
+  		background-color: #AD8B73;
   		width: 100%;
   	}
-	.menu-item p{
+		.menu-item p{
     	font-weight: bold;
     	font-size: 1em;
    		padding: 5px 5px 5px 5px;
@@ -83,14 +91,18 @@ body {
 
 	.menu{
     	width: 100%;
-    	margin-right:auto;
-    	margin-left:auto;
+    	margin-right: auto;
+    	margin-left: auto;
     	margin-bottom: auto;
   }
 
+.menu-description{
+	margin-left: 10px;
+   		margin-right: 10px;
+  	}
 
   	.menu-item{
-  		background-color: black;
+  		background-color: #AD8B73;
   	}
 	.menu-item p{
     	font-weight: bold;
@@ -102,7 +114,7 @@ body {
 
 
 
-/********** Very Small devices only **********/
+/**********  Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	.navbar-brand {
 		padding-top: 10px;
@@ -122,11 +134,11 @@ body {
   }
 
 .menu-description{
-	margin-left: 50px;
-   		margin-right: 50px;
+	margin-left: 25px;
+   		margin-right: 25px;
   	}
   	.menu-item{
-  		background-color: black;
+  		background-color: #AD8B73;
   	}
 	.menu-item p{
     	font-weight: bold;
@@ -139,7 +151,7 @@ body {
 
 }
 
-/********** Extra small devices only **********/
+/********** Very small devices only **********/
 @media (max-width: 767px) {
 
 
@@ -163,7 +175,7 @@ body {
    		margin-right: 50px;
   		}
   	.menu-item{
-  		background-color: black;
+  		background-color: #AD8B73;
   		}
 	.menu-item p{
     	font-weight: bold;
@@ -174,7 +186,7 @@ body {
   		} 
 }
 
-/********** Extra Extra small devices only **********/
+/********** Extra Small devices only **********/
 
 @media (max-width: 479px) {
 	/* Header */
@@ -195,11 +207,11 @@ body {
   }
 
 .menu-description{
-	margin-left: 50px;
+			margin-left: 50px;
    		margin-right: 50px;
   	}
   	.menu-item{
-  		background-color: black;
+  		background-color: #AD8B73;
   	}
 	.menu-item p{
     	font-weight: bold;
